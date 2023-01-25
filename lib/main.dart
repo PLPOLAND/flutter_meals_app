@@ -14,13 +14,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          primarySwatch: Colors.yellow,
-          colorScheme: const ColorScheme.light(
-              primary: Color(0xFFfbc02d),
-              onPrimary: Color(0xFF000000),
-              secondary: Color(0xFFab47bc),
-              onSecondary: Color(0xFFFFFFFF),
-              background: Color(0xFF234533))),
+        primarySwatch: Colors.yellow,
+        colorScheme: const ColorScheme.light(
+          primary: Color(0xFFfbc02d),
+          onPrimary: Color(0xFF000000),
+          secondary: Color(0xFFab47bc),
+          onSecondary: Color(0xFFFFFFFF),
+          background: Color(0xFF234533),
+        ),
+      ),
       home: CategoriesScreen(),
     );
   }
